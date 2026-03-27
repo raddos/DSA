@@ -1,8 +1,12 @@
-#include <iostream>
+#include <print>
+#include "data_strctures/array/array.h"
+//DSA architecture and stuff
 
-//Branched for old version and additonal C style like data structures and algorithms 
-int main(int argc, char *argv[])
-{
-	std::cout << "Hello!" << std::endl;
-	return 0;
-}
+
+auto main() -> int {
+	RD::array ar;
+	
+	std::println("Hello world!");
+	std::println("{}", ar.view_size());
+	std::println("{}", sizeof(ar));
+};
