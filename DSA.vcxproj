@@ -128,8 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="data_strctures\array\array.cpp" />
+    <ClCompile Include="data_strctures\linked_list\linked_list.cpp" />
+    <ClCompile Include="data_strctures\linked_list\linked_list.h" />
     <ClCompile Include="data_strctures\vector\vector.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="problems\leetcode\TwoSum.cpp" />
+    <ClCompile Include="problems\leetcode\ValidParentheses.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="data_strctures\array\array.h" />

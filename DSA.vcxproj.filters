@@ -24,6 +24,18 @@
     <ClCompile Include="data_strctures\vector\vector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="problems\leetcode\TwoSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\leetcode\ValidParentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="data_strctures\linked_list\linked_list.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="data_strctures\linked_list\linked_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="data_strctures\array\array.h">

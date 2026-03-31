@@ -13,8 +13,8 @@ struct array
 	array() = default;
 
 	//custom constructors
-	template<int>
-	explicit(sizeof(T_v>0)) array(size_t n) :data(new T_v[n]),size(n) { if (data) data = new int[size]; };
+	
+	//explicit(sizeof(T_v>0)) array(size_t n) :data(new T_v[n]),size(n) { if (data) data = new int[size]; };
 	
 	//move const
 
